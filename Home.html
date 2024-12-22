@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>My First Web</title>
+    <style>
+        *{
+            margin:0;
+        }
+        @font-face{
+        font-family:"net";
+        src:url("BebasNeue.otf")   
+        }
+        .header{
+            color:rgb(228,9,20);
+            font-size:50px;
+            text-align:left;
+            font-family:"net";
+            padding-left:165px;
+            padding-top:10px;
+            padding-bottom: 20px;
+            letter-spacing:3.5px;
+            transition: 0.2s;    
+        }
+        .header:hover{
+            transition: 0.2s;
+            letter-spacing:10px;
+
+        }
+        .bg{
+            background-image:url("canva\ netflix\ bg.jpg")
+        }
+        .sub{
+            color: rgb(254, 254, 254);
+            text-align: center;
+            font-size: 50px;
+            padding-top: 150px;
+            font-family: arial black;
+        }
+        .payment{
+            color:rgb(254, 254, 254);
+            text-align: center;
+            font-size: 19.5px;
+            padding-top: 20px;
+            font-family: arial;
+            font-weight:525;
+           
+        }
+        .searchbar{
+            width: 360px;
+            height: 50px;
+            font-size: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            background-color: rgba(0,0,0,.6);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            color:rgb(254, 254, 254);
+            border:1px solid rgb(95,95,95);
+            
+        }
+        .startbutton{
+            width: 180px;
+            height: 50px;
+            border-radius: 5px;
+            background-color:rgb(228,9,20);
+            color:rgb(254, 254, 254);
+            border:none;
+            font-family: arial black;
+            font-size:19px;
+            transition: 0.2s;
+        }
+        .startbutton:hover{
+            background-color:rgb(185, 9, 18);
+            transition: 10s;
+            width:200px;
+            height: 2000px;
+            border-radius: 10px;
+        }
+          
+
+    </style>
+</head>
+<body class="bg">
+    <h1 class="header">Netflix</h1>
+    <h1 class="sub">Unlimited movies, TV <br> shows, and more</h1>
+    <p class="payment">Starts at $6.99. Cancel anytime.</p>
+    <form>
+        <center>
+        <input type="text" placeholder="search" class="searchbar">
+        <input type="submit" value="Get Started >" class="startbutton">
+        </center>
+    </form>
+   
+</body>
+</html>
