@@ -1,2 +1,2 @@
 # Netflix Clone
- Vscode
+ Vscode (HTML, CSS)
