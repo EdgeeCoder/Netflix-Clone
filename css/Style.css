@@ -241,8 +241,39 @@
   position: relative;
   left: 10px;
 }
+.sales_pitch{
+  margin: 20px 155px
+}
+.subcells {
+  background: linear-gradient(to bottom right, rgb(25, 33, 69),rgb(33, 14, 23));
+  height: 255px;
+  width: 350px;
+  border-radius: 15px;
+  color:rgb(170, 170, 179);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px 20px;
+
+}
+.subcells h4{
+  font-size: 24px;
+  color:rgb(255, 255, 255);
+  padding-bottom: 25px;
+
+}
+.svg{
+  margin-top: 80px;
+  float: right;
+
+}
+
+
+
+
+
+
+
 .footer {
-  background: linear-gradient(to bottom, black, rgb(24, 24, 24));
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(24, 24, 24));
   color: rgb(145, 145, 145);
   font-family: Arial, Helvetica, sans-serif;
 }
