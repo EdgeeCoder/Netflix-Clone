@@ -78,7 +78,7 @@
 .trending {
   color: rgb(255, 255, 255);
   margin-left: 155px;
-  margin-top: 100px;
+  margin-top: -15px;
 
   h2 {
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
@@ -102,6 +102,7 @@
 .parent {
   background-color: rgb(0, 0, 0);
   margin-top: 430px;
+  border-radius: 15px;
 }
 .abt {
   background-color: rgb(228, 9, 20);
@@ -112,7 +113,7 @@
   border-radius: 5px;
   transition: 0.5s;
   text-decoration: none;
-  float: right;
+  float: right !important;
   margin-right: 10%;
   margin-top: 23px;
 }
@@ -226,13 +227,17 @@
   border-color: rgb(255, 255, 255);
 }
 .ram {
-  padding-left: 10px;
+  margin-left: 25px;
   position: relative;
-  top: -5px;
+  top: -20px;
 }
 .redirect {
   color: rgb(173, 173, 173);
   padding-left: 10px;
+}
+.repo {
+  position: relative;
+  top: -30px;
 }
 .botcatcher {
   font-size: 13px;
@@ -241,36 +246,31 @@
   position: relative;
   left: 10px;
 }
-.sales_pitch{
-  margin: 20px 155px
+.sales_pitch {
+  margin: 20px 155px;
 }
 .subcells {
-  background: linear-gradient(to bottom right, rgb(25, 33, 69),rgb(33, 14, 23));
-  height: 255px;
-  width: 350px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(25, 33, 69),
+    rgb(33, 14, 23)
+  );
+  height: 355px;
+  width: 320px;
   border-radius: 15px;
-  color:rgb(170, 170, 179);
+  color: rgb(170, 170, 179);
   font-family: Arial, Helvetica, sans-serif;
   padding: 30px 20px;
-
 }
-.subcells h4{
+.subcells h4 {
   font-size: 24px;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   padding-bottom: 25px;
-
 }
-.svg{
+.svg {
   margin-top: 80px;
   float: right;
-
 }
-
-
-
-
-
-
 
 .footer {
   background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(24, 24, 24));
